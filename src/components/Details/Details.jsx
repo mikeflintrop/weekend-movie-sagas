@@ -1,6 +1,7 @@
 import { useHistory, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import {useEffect, useState} from 'react';
+import Button from '@mui/material/Button';
 
 function Details() {
 
@@ -9,9 +10,9 @@ function Details() {
     const details = useSelector(store => store.details);
     const genres = useSelector(store => store.genres);
 
-    // const id = useParams();
+    // let {id} = useParams();
 
-    // console.log('this is movie id', id);
+    // console.log('this is movie id', {id});
 
     const returnToMovieList = () => {
         history.push('/');
@@ -43,7 +44,12 @@ function Details() {
                             <h5 key={i}>{genre.name}</h5>
                         )
                     })}
-            <button onClick={returnToMovieList}>Return to Movie List</button>
+            <Button 
+                variant="outlined" 
+                size="medium"
+                onClick={returnToMovieList}
+                >Return to Movie List
+            </Button>
         </div>
     )
 }
