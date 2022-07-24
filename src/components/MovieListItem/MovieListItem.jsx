@@ -1,6 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
+import * as React from 'react';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+import { CardActionArea } from '@mui/material';
 
 function MovieListItem ({movie}) {
 
@@ -16,8 +22,22 @@ function MovieListItem ({movie}) {
 
     return (
         <div key={movie.id} >
-            <h3>{movie.title}</h3>
-            <img onClick={getDetails} src={movie.poster} alt={movie.title}/>
+            <Card className='movieCard' sx={{ maxWidth: 345 }} onClick={getDetails}>
+				<CardActionArea>
+					<CardMedia
+						className='movieImage'
+						component='img'
+						height='160'
+						image={movie.poster}
+						alt={movie.title}
+					/>
+					<CardContent>
+						<Typography gutterBottom variant='h5' component='div'>
+							{movie.title}
+						</Typography>
+					</CardContent>
+				</CardActionArea>
+			</Card>
         </div>
     )
 };
