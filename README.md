@@ -1,9 +1,42 @@
-# Project Name
+![REPO SIZE](https://img.shields.io/github/repo-size/scottbromander/the_marketplace.svg?style=flat-square) ![TOP_LANGUAGE](https://img.shields.io/github/languages/top/scottbromander/the_marketplace.svg?style=flat-square) ![FORKS](https://img.shields.io/github/forks/scottbromander/the_marketplace.svg?style=social)
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# REACT-REDUX FEEDBACK
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+_Duration: 4 Hours_
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+This application allows you to display movies from a database and interact with each page. Once page loads you can click the desired movie poster image to see the movie details and genres page. Clicking the 'Return to Movie List' button will allow you to go back to the original 'Movie List' page.
+
+## Screen Shot
+
+<!-- ![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotFeeling.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotUnderstanding.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotSupport.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotComments.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotFeedback.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotThanks.png)
+![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotAdmin.png) -->
+
+### Prerequisites
+
+Nodejs Postgres download dependencies
+
+## How does someone use this application?
+
+1. Open the index.html file in browser of your choice.
+2. Click on the movie poster image to move to the 'Details' page.
+3. Click on the 'Return to Movie List' button to move to the 'Movie List' page. 
+
+
+## Built With
+
+HTML CSS Javascript Reactjs Nodejs Nodemon Axios Expressjs Redux Postgres
+
+## Acknowledgement
+
+Thanks to [Prime Digital Academy](www.primeacademy.io) who equipped and helped me to make this application a reality. Thank you to my instructor Liz and fellow members of the Jemisin Cohort  who helped answer any questions I may have had while building this! 
+
+## Support
+
+If you have suggestions or issues, please email me at [mike.flintrop@gmail.com](https://www.google.com)
