@@ -1,8 +1,9 @@
 .movieCard {
 	margin: 20px;
-    width: 200px;
+    width: 260px;
+	height: 375px;
 }
 .movieImage {
-	height: 300px;
-	width: 200px;
+	height: 290px;
+	width: 260px;
 }
