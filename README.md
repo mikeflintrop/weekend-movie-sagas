@@ -10,13 +10,9 @@ This application allows you to display movies from a database and interact with 
 
 ## Screen Shot
 
-<!-- ![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotFeeling.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotUnderstanding.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotSupport.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotComments.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotFeedback.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotThanks.png)
-![alt text](https://github.com/mikeflintrop/weekend-redux-feedback-loop/blob/main/public/images/ScreenShotAdmin.png) -->
+![alt text](https://github.com/mikeflintrop/weekend-movie-sagas/blob/main/public/images/Screen%20Shot%20Details.png)
+![alt text](https://github.com/mikeflintrop/weekend-movie-sagas/blob/main/public/images/Screen%20Shot%20Movie%20List.png)
+
 
 ### Prerequisites
 
