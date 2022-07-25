@@ -49,8 +49,8 @@ function* fetchAllGenres(action) {
 function* fetchAllDetails(action) {
     console.log('fetchAllDetails:', action.payload);
     try {
-        const response = yield axios.get(`/api/genre/details/${action.payload.id}`);
-        console.log('action.payload id', action.payload.id);
+        const response = yield axios.get(`/api/genre/details/${action.payload}`);
+        console.log('action.payload id', action.payload);
         yield put({ type: "SET_DETAILS", payload: response.data });
 
     } catch {

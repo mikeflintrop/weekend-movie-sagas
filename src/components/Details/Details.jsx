@@ -10,9 +10,9 @@ function Details() {
     const details = useSelector(store => store.details);
     const genres = useSelector(store => store.genres);
 
-    // let {id} = useParams();
+    let {id} = useParams();
 
-    // console.log('this is movie id', {id});
+    console.log('this is movie id', id);
 
     const returnToMovieList = () => {
         history.push('/');
@@ -23,8 +23,13 @@ function Details() {
     //     dispatch({type: 'FETCH_GENRES', payload: id })
     // }
 
+    useEffect(()=>{
+        dispatch({type: 'FETCH_DETAILS', payload: id });
+        dispatch({type: 'FETCH_GENRES', payload: id });
+    },[])
+
     // useEffect(()=>{
-    //     getDetails()
+    //     dispatch({type: 'FETCH_GENRES', payload: id })
     // },[])
 
     return(

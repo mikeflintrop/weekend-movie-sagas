@@ -15,10 +15,10 @@ function MovieListItem ({movie}) {
     const dispatch = useDispatch();
 
     const getDetails = () => {
-        dispatch({type: 'FETCH_DETAILS', payload: movie})
+        dispatch({type: 'FETCH_DETAILS', payload: movie.id})
         dispatch({type: 'FETCH_GENRES', payload: movie.id})
         console.log('in getDetails', movie.id);
-        history.push('/details');
+        history.push(`/details/${movie.id}`);
     }
 
     return (
